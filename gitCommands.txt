@@ -1,6 +1,20 @@
 git log  -- lists commits made to repository
 
 git diff commitPrevious commitNew  -- shows differences between commitPrevious and commitNew (the two commits should just be the tag or the first 4 digit sof the tag.)
+	--- if run without any arguments, will compare any changes from working directory to staging area.
+git diff --staged -- shows differences between files in staging area to previous commit.
 
 git checkout commitID -- rolls back to when commitID was the most recent commitID
 
+git clone url -- makes a copy of entire Git repository, including the history onto the computer
+
+git init -- creates a repository from the current directory
+
+git status -- shows what files have changed since the last commit
+
+git add filename -- adds filename to staging area to be added to repository with commit
+
+git reset filename -- removes filename from staging area
+git reset --hard --- BE CAREFUL WHEN RUNNING. Will undo any changes (not commited) in staging area AND working directory.
+
+git commit -- commits files in staging area. Opens text editor to add commit message
