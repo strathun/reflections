@@ -1,0 +1,6 @@
+git log  -- lists commits made to repository
+
+git diff commitPrevious commitNew  -- shows differences between commitPrevious and commitNew (the two commits should just be the tag or the first 4 digit sof the tag.)
+
+git checkout commitID -- rolls back to when commitID was the most recent commitID
+
