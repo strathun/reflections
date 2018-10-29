@@ -1,10 +1,17 @@
 git log  -- lists commits made to repository
+git log --graph --oneline branchname1 branchname2 --- will display an easier to read version 
+	commit history that includes only branchname1 and 2 (can do more than two branches).
 
 git diff commitPrevious commitNew  -- shows differences between commitPrevious and commitNew (the two commits should just be the tag or the first 4 digit sof the tag.)
 	--- if run without any arguments, will compare any changes from working directory to staging area.
 git diff --staged -- shows differences between files in staging area to previous commit.
 
+git show commitID -- similar to git diff, but will show changes between the specified 
+	commit and its parent, not necessarily the commit immediately preceding it in the log (for instance if two branches were merged). 
+
 git checkout commitID -- rolls back to when commitID was the most recent commitID
+git checkout branchname -- switches to branchname
+git checkout -b newbranchname -- creates and checks out a new branch in one command.
 
 git clone url -- makes a copy of entire Git repository, including the history onto the computer
 
@@ -18,3 +25,11 @@ git reset filename -- removes filename from staging area
 git reset --hard --- BE CAREFUL WHEN RUNNING. Will undo any changes (not commited) in staging area AND working directory.
 
 git commit -- commits files in staging area. Opens text editor to add commit message
+
+git branch -- shows current branch
+git branch branchname -- creates new branch called branchname
+git branch -d branchname -- deletes branch. BE CAREFUL, use this to delete branch label 
+	after merging a branch back into the master. If this is used before merging, all the commits in the branch will be lost!
+
+git merge branchname1 branchname2 -- merges the two branches
+
