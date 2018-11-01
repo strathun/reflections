@@ -33,3 +33,12 @@ git branch -d branchname -- deletes branch. BE CAREFUL, use this to delete branc
 
 git merge branchname1 branchname2 -- merges the two branches
 
+git remote -- displays all current remotes
+git remote -v -- verbose version. Lists urls for push and fetch location.
+git remote add origin url -- will add the repository on github specified by remoteName 
+	as a remote. url will come from repository made on github
+	
+git push remoteName branchName -- will push commits in branchName to hub repository
+	specified by remoteName (ie 'origin').
+
+
