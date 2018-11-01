@@ -5,3 +5,13 @@ Why might you want to always pull changes manually rather than having Git automa
 	You may still be working on something that you're not quite ready to share.
 	Manual pushing allows you to push/pull changes that are ready, or in the case of
 	pulling, relevant to your work. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	A fork is different from a clone because it is done on github, not in the local 
+	repository. Also, a fork will give credit to the original creator and facilitate
+	collaboration. Clones simply copy a repository (and automatically setup a remote)
+	to your local machine. Branches copy the most recent version of a repository and 
+	create a new lineage that can be tracked and rolled back separately from the 
+	master. Fork is good for collaboration or politely copying someone else's work, 
+	clone is good when you want to bring a repository to your local computer to work
+	on it. Branches are good for local work when you want to test a new feature, etc.
