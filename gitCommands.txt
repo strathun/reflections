@@ -42,6 +42,10 @@ git push remoteName branchName -- will push commits in branchName to hub reposit
 	specified by remoteName (ie 'origin').
 	
 git pull remoteName branchName -- will pull any changes/commits made on or present in 
-	github that are not in your local repository.
+	github that are not in your local repository. Equivalent to fetch then merge.
+	
+git fetch -- will pull any commits made in the remote repo to local, 
+	and create a new branch that will not overwrite your local work.
+
 
 

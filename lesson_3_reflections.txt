@@ -15,3 +15,9 @@ Describe the differences between forks, clones, and branches. When would you use
 	master. Fork is good for collaboration or politely copying someone else's work, 
 	clone is good when you want to bring a repository to your local computer to work
 	on it. Branches are good for local work when you want to test a new feature, etc.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	This lets you know if any changes have been made since you forked the remote 
+	master branch. Having a local copy of this updated master will allow you to handle 
+	any merge conflicts that might occur and make sure that your changes will integrate
+	with the master correctly. 
