@@ -21,3 +21,8 @@ What is the benefit of having a copy of the last known state of the remote store
 	master branch. Having a local copy of this updated master will allow you to handle 
 	any merge conflicts that might occur and make sure that your changes will integrate
 	with the master correctly. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Have a shared dropbox/Drive account with some version control. This wouldn't be
+	nearly as powerful as git, but it wouldn't require taking a full class to learn
+	how to use.
